@@ -1,0 +1,10 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+D:/yyyyyyyyy/studia/semestr\ X/PKUC\ II/projekt/EDDSAv2/HDL {D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/HDL/parameters_pkg.sv}
+vlog -sv -work work +incdir+D:/yyyyyyyyy/studia/semestr\ X/PKUC\ II/projekt/EDDSAv2/HDL/primitives/modular_operations {D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/HDL/primitives/modular_operations/sub.sv}
+

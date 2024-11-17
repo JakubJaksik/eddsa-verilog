@@ -1,0 +1,22 @@
+Fitter Status : Successful - Thu Nov 14 15:06:54 2024
+Quartus Prime Version : 21.1.1 Build 850 06/23/2022 SJ Lite Edition
+Revision Name : eddsa
+Top-level Entity Name : add_8_parts
+Family : Cyclone V
+Device : 5CEBA4F23C7
+Timing Models : Final
+Logic utilization (in ALMs) : 2,510 / 18,480 ( 14 % )
+  * Logic utilization warning : A large number of ALMs contain virtual pins and count towards logic utilization
+  * ALMs containing virtual pins : 1,345 / 18,480 ( 7 % )
+Total registers : 0
+Total pins : 0 / 224 ( 0 % )
+Total virtual pins : 2,689
+Total block memory bits : 0 / 3,153,920 ( 0 % )
+Total RAM Blocks : 0 / 308 ( 0 % )
+Total DSP Blocks : 0 / 66 ( 0 % )
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0 / 4 ( 0 % )
+Total DLLs : 0 / 4 ( 0 % )

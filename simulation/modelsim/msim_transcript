@@ -1,0 +1,193 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do eddsa_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is Jakub@KOMPUTER.
+# vlib rtl_work
+# ** Warning: (vlib-34) Library already exists at "rtl_work".
+# Errors: 0, Warnings: 1
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2021.2 Lib Mapping Utility 2021.04 Apr 14 2021
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/21.1/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+D:/yyyyyyyyy/studia/semestr\ X/PKUC\ II/projekt/EDDSAv2/HDL/primitives/arithmetic {D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/HDL/primitives/arithmetic/sub.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:27:32 on Nov 13,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/HDL/primitives/arithmetic" D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/HDL/primitives/arithmetic/sub.sv 
+# -- Compiling module sub
+# 
+# Top level modules:
+# 	sub
+# End time: 17:27:32 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work {D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/HDL/parameters_pkg.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:27:46 on Nov 13,2024
+# vlog -reportprogress 300 -work work D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/HDL/parameters_pkg.sv 
+# -- Compiling package parameters_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:27:47 on Nov 13,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/SIM/sub_tb.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:27:53 on Nov 13,2024
+# vlog -reportprogress 300 -work work D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/SIM/sub_tb.sv 
+# ** Warning: D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/SIM/sub_tb.sv(38): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/SIM/sub_tb.sv(39): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/SIM/sub_tb.sv(56): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/SIM/sub_tb.sv(93): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling package sub_tb_sv_unit
+# -- Importing package parameters_pkg
+# -- Compiling module sub_tb
+# ** Warning: D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/SIM/sub_tb.sv(38): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/SIM/sub_tb.sv(39): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/SIM/sub_tb.sv(56): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/SIM/sub_tb.sv(93): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	sub_tb
+# End time: 17:27:53 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 8
+vlog -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/SIM/sub_tb.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:28:57 on Nov 13,2024
+# vlog -reportprogress 300 -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/SIM/sub_tb.sv 
+# -- Compiling package sub_tb_sv_unit
+# -- Importing package parameters_pkg
+# -- Compiling module sub_tb
+# 
+# Top level modules:
+# 	sub_tb
+# End time: 17:28:57 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.sub_tb
+# vsim -voptargs="+acc" work.sub_tb 
+# Start time: 17:28:59 on Nov 13,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "sub(fast)".
+# Loading sv_std.std
+# Loading work.parameters_pkg(fast)
+# Loading work.sub_tb_sv_unit(fast)
+# Loading work.sub_tb(fast)
+# Loading work.sub(fast)
+run -all
+# Test 1 passed!
+# 
+# Test 2 failed!
+# Obtained: 11fffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000000000000000000000000000000000000000000000000000
+# Expected: 0fffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+# 
+# Test 3 passed!
+# 
+# Test 4 failed!
+# Obtained: 1e000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001
+# Expected: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001
+# 
+# Test 5 failed!
+# Obtained: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002
+# Expected: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008
+# 
+# Test 6 passed!
+# 
+# [3/6] tests passed
+# ** Note: $stop    : D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/SIM/sub_tb.sv(149)
+#    Time: 235 ns  Iteration: 2  Instance: /sub_tb
+# Break in Module sub_tb at D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/SIM/sub_tb.sv line 149
+vlog -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/SIM/sub_tb.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:30:17 on Nov 13,2024
+# vlog -reportprogress 300 -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/SIM/sub_tb.sv 
+# -- Compiling package sub_tb_sv_unit
+# -- Importing package parameters_pkg
+# -- Compiling module sub_tb
+# 
+# Top level modules:
+# 	sub_tb
+# End time: 17:30:17 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.parameters_pkg(fast)
+# Loading work.sub_tb_sv_unit(fast)
+# Loading work.sub_tb(fast)
+# Loading work.sub(fast)
+run -all
+# Test 1 passed!
+# 
+# Test 2 passed!
+# 
+# Test 3 passed!
+# 
+# Test 4 failed!
+# Obtained: 1e000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001
+# Expected: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001
+# 
+# Test 5 failed!
+# Obtained: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002
+# Expected: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008
+# 
+# Test 6 passed!
+# 
+# [4/6] tests passed
+# ** Note: $stop    : D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/SIM/sub_tb.sv(149)
+#    Time: 235 ns  Iteration: 2  Instance: /sub_tb
+# Break in Module sub_tb at D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/SIM/sub_tb.sv line 149
+vlog -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/SIM/sub_tb.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:31:07 on Nov 13,2024
+# vlog -reportprogress 300 -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/SIM/sub_tb.sv 
+# -- Compiling package sub_tb_sv_unit
+# -- Importing package parameters_pkg
+# -- Compiling module sub_tb
+# 
+# Top level modules:
+# 	sub_tb
+# End time: 17:31:07 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.parameters_pkg(fast)
+# Loading work.sub_tb_sv_unit(fast)
+# Loading work.sub_tb(fast)
+# Loading work.sub(fast)
+run -all
+# Test 1 passed!
+# 
+# Test 2 passed!
+# 
+# Test 3 passed!
+# 
+# Test 4 passed!
+# 
+# Test 5 passed!
+# 
+# Test 6 passed!
+# 
+# All passed [6/6]!
+# ** Note: $stop    : D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/SIM/sub_tb.sv(149)
+#    Time: 235 ns  Iteration: 2  Instance: /sub_tb
+# Break in Module sub_tb at D:/yyyyyyyyy/studia/semestr X/PKUC II/projekt/EDDSAv2/SIM/sub_tb.sv line 149
+# End time: 13:46:14 on Nov 14,2024, Elapsed time: 20:17:15
+# Errors: 0, Warnings: 0

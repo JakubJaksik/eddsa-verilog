@@ -1,0 +1,7 @@
+
+State Machine - |add_4_parts|state
+Name state.STAGE3 state.STAGE2 state.STAGE1 state.IDLE 
+state.IDLE 0 0 0 0 
+state.STAGE1 0 0 1 1 
+state.STAGE2 0 1 0 1 
+state.STAGE3 1 0 0 1 
